@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Images</title>
+    <style>
+
+        .w{
+            width: 200px;
+        }
+    </style>
+</head>
+<body class="w-75 mx-auto my-4">
+    
+    <img src="img/1.jpg" alt="" class="w rounded">
+    <img src="img/2.jpg" alt="" class="w rounded-circle">
+    <img src="img/3.jpg" alt="" class="w img-thumbnail">
+    <img src="img/4.jpg" alt="" class="img-fluid">
+
+    <br><br>
+
+    <img src="img/2.jpg" alt="" class="w d-block mx-auto">
+
+    <br><br>
+
+    <div class="clearfix">
+        <img src="img/3.jpg" alt="" class="w img-thumbnail float-right">
+        <img src="img/4.jpg" alt="" class="img-fluid float-left">
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ducimus.</p>
+
+    <br><br><br>
+
+    <form>
+
+        <div class="form-group">
+        
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                    
+        </div>
+
+        <div class="form-group">
+        
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+            
+            <small class="form-text text-muted">please enter a correct mail</small>
+        </div>
+
+        <div class="form-group">
+        
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password">
+                            
+        </div>
+
+        <div class="form-group">
+        
+            <label for="city">City</label>
+            <select name="city" id="city" class="form-control">
+                <option value="kocaeli">Kocaeli</option>
+                <option value="ankara">Ankara</option>
+                <option value="istanbul">İstanbul</option>
+            </select>        
+        
+        </div>
+
+        <div class="form-group">
+        
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>                                
+        </div>
+
+        <div class="form-group">
+            <legend>Hobies</legend>
+
+            <div class="form-check">
+                <label for="" class="form-check-label">
+                    <input type="checkbox"> Koşmak
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label for="" class="form-check-label">
+                    <input type="checkbox"> Futbol
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label for="" class="form-check-label">
+                    <input type="checkbox"> Okumak
+                </label>
+            </div>
+
+
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox"  class="custom-control-input" id="ch">
+            <label class="custom-control-label" for="ch">Check</label>
+        </div>
+
+        <div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio"  class="custom-control-input" id="cr1" name="example">
+                <label class="custom-control-label" for="cr1">Custom Radio 1</label>
+            </div>
+
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio"  class="custom-control-input" id="cr2" name="example">
+                <label class="custom-control-label" for="cr2">Custom Radio 2</label>
+            </div>
+
+        </div>
+
+    </form> 
+    
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

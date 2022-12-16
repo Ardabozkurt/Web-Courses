@@ -1,0 +1,55 @@
+/*  Group Selectors  
+
+    1 : (*)     => tüm etiketler 
+    2 : (p)    => tüm p etiketleri
+	3 : (div p) => div içindeki tüm p etiketleri
+	4 : (div,p) => tüm div ve tüm p etiketleri
+	5 : (div > p) => üst etiketi div olan tüm p 
+	6 : (p ~ div)=> p ile aynı seviyede tüm div 
+	7 : (p + div)=> p etiketinden sonra gelen div 
+
+*/
+
+p+div{
+	border: 1px solid red;
+}
+
+
+/*
+
+
+p~div{ pden sonra gelen ve aynı seviyede olan divleri alır
+	border: 1px solid red;
+}
+
+div>p{ divin altındaki pleri alır
+	border: 1px solid red;
+}
+
+div,p{ divleri ve pleri alır
+	border: 1px solid blue;
+}
+
+div.box,p{ divin içindeki boxları ve pleri alır
+	border: 1px solid red;
+}
+
+.container div.box{ containerın altındaki boxlu divleri
+	border: 1px solid red;
+}
+
+
+div p{ divin içindeki bütün pler
+	border: 1px solid blue;
+}
+
+
+p { bütün pleri
+	border:1px solid blue;
+}
+
+
+*{ bütübn her şeyi
+	border:1px solid blue;
+}
+*/
